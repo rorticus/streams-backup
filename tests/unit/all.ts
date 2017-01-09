@@ -1,5 +1,6 @@
 import './ByteLengthQueuingStrategy';
 import './CountQueuingStrategy';
+import './pipeToStream';
 import './ReadableStream';
 import './ReadableStreamController';
 import './ReadableStreamReader';
@@ -10,4 +11,4 @@ import './util';
 import './WritableStream';
 import './adapters/EventedStreamSource';
 
-import 'dojo/has!host-node?./nodeOnly:';
+// import 'dojo/has!host-node?./nodeOnly:';
